@@ -1,0 +1,34 @@
+Yeseul Ju
+154673198
+yju9@myseneca.ca
+NEE
+
+A2ms4-reflect
+
+1.
+   a) commonHelpers.h
+	None Developed
+   b) account.h
+	int loadAccounts(struct Account* account, int Account_Size);
+	int saveAccounts(struct Account* account, int Account_Size);
+   c) ticket.h
+	int loadTickets(struct Ticket* ticket, int Ticket_Size);
+	int saveTickets(struct Ticket* ticket, int Ticket_Size);
+	void TicketHeader(void);
+	void MessageHeader(const struct Ticket ticket);
+	void DisplayTicket(const struct Ticket ticket[], int Ticket_Status, int Number_of_Messages, int
+		Max_Tickets);
+	void DisplayMessage(const struct Ticket ticket, int Number_of_Messages);
+	void NewTicket(struct Ticket* ticket, const struct Account account);
+	void TicketUpdate(struct Ticket* ticket, const struct Account* account_login);
+   d) accountTicketingUI.h
+	int findTicketIndexByAcctNum(int match, const struct Ticket account[], int elements, int prompt);
+	int findTicketIndexByTickNum(int match, const struct Ticket ticket[], int elements, int prompt);
+
+
+2.
+The two main components that I have enjoyed developing are the ticket.c menu. Ticket.c creation was fun because I was able to create my own function according to the purpose of making it. I enjoyed the process of applying it by reflecting the accumulated knowledge while listening to the course so far. The process of thinking about and implementing my own solution as if I were putting together a puzzle was interesting. In particular, the joy I feel when the solution I made works effectively contributed to my interest in this subject. I was able to plan the function myself and implement it successfully, so I enjoyed finding errors and adjusting the source code. I was able to understand the flow of the entire code because I thought about running the entire program by creating a menu like ticket.c and matched the code needed for each menu.  As a result, I was able to understand the overall flow and understand the logic more easily while building the menu. As it was the most time-consuming task, I felt affectionate and proud after completion. It will be of great significance to proceed with the course next semester.
+
+3.
+The two main factors I hated were to make common helpers.h and the source code of a different menu in common helpers. The header file acts as a helper to rotate the source code, which reconstructs helper functions and structures to implement new data or change structural initialization. It was difficult to grasp it at the beginning of the task. In addition, in ms4, it was difficult to grasp the purpose due to poor utilization within the task. However, after identifying each function, it was the most helpful in completing the overall program using it. It made it possible to save time and save energy. In addition, in some cases, the use of the code was not clearly recognized, so the code had to be adjusted and reviewed for all menus. The structure part was also a part that I hated within the task. It took a long time because the code made using the structure did not proceed well. Also, I felt like I was stepping back from the progress of the task so far. Through this task, I thought that the most important thing when coding is to make it as neat and concise as possible so that viewers can understand it easily. This is because you can understand at a glance what the problem is when correcting the error again. But most of all, the hardest thing about doing the assignment was when the program I created was not running properly, and when I tried to submit the assignment in matrix, it was hard to get back to square one if I got the long output wrong even in one letter.
+
