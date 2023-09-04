@@ -1,0 +1,60 @@
+Name:Yeseul Ju
+Student Number: 
+Email: yju9@myseneca.ca
+Section: NEE
+milestone: 2  Reflection
+
+1. I assigned the appropriate data type for each function and sent the function to the header file to be defined. It was not easy from milestone 1. When I first received the assignment, it was hard because the program didn't work. However, repeat it for a while and create a conditional statement. And of course, the message is displayed when an error occurs. 
+After realizing that I could do it, the functions behind it were easily solved. However, the most difficult function to solve was 'getIntPositiveDouble'.
+The process was released with in 'getinteger', so i thought that the same function could be used in 'getPositiveDouble'. But the program didn't work properly.
+After the struggling time, I found a problem with the input. I made the code of the one more overlapping 'if' has been created to create a code that can be distinguished in detail. 
+Milestone 2 defined the structure and declared each variable in it. But there was a problem with the main.c, and I thought it was problem of the data type which is declared in account.h.
+And also, I found the error was found in the declared data type when defining a function in commonhelpers.h, So I fixed it and it went well. 
+ Finally, there was a problem in outputting the number of inputs that I recieved. When i try to print a string such as %s, the string does not appear as text, but printed out as a number.
+And the biggest problemof that was to receive A or C , then output agents or customers. So I thought about that I can use the'getCharOption'. And I made the function , 'account.type == 'c' ? 'customer' : 'agent'. In turn, I completed the code that if you get A, you get an Agency, and if you get C, you get a Customer.
+
+2.The common helpers library was most attractive in that it could be used by bringing up functions without having to write them all down in the main function.
+In addition, since it is defined in each file, it can be easily distinguished, and the part where the error was generated can be quickly identified and corrected.
+It was the best for me. At first, it was unfamiliar to code the header file, the c file, and the main file separately, so I didn't understand it well. 
+While studying milestone this time, I understood it perfectly. Data were put in the header file and these data could be easily used. 
+It was also very good to be able to grasp functions by type.
+
+3. For example, suppose there are 100 functions referring to a variable. Then you have to define and declare a function.
+When another variable needs to be added, one data must be added again for each function. If that happens, it will take a lot of time.
+The C language structure is used to group multiple types of data. In other words, it is a structured data type. The advantage of a structure is that when you turn data over to a function,
+All you have to do is hand over the structure. Then, even if a parameter is added to a function that is added thereafter, it is intended to be delivered without changing the declaration of the function.
+And also ,You can change the data. You only need to add or delete one field from the structure declaration. Another advantage is that it is easy to read because it only hands over the structure to the function.
+However, in the c language, structures are not treated as data types created within the structure. In addition, operators cannot be used for variables. so, you can only substitution operations, & operations aimed at returning address values, and size of operations that return the size of structural variables are allowed. In addition, in order to add or subtract structural variables, the programmer must define the result of addition or subtraction by defining functions.
+
+4. This task served as an opportunity to make great progress for me.  I think you have to think a lot on your own in order for coding to develop.
+It was fun to create a code while thinking about how to solve this problem while looking at the problem, and to think about what part of the problem occurred if there was an error.
+If i just follow the contents while taking classes, there are times when i don't learn the functions and functions I'm learning properly.
+However, through this opportunity, I learned what I was learning and what knowledge I was acquiring. There were countless blockages while coding. In that case, it was solved by searching for a c language book or familiarizing myself with the basic concept once again and applying it.
+The most interesting thing about this task was that each function could be defined by separating the header file and the c file, and the defined functions could be called up and used in the right function.
+When I first separated the file, I didn't understand it and felt at a loss, but it was fun to declare the function I created in the header file and retrieve the data.
+But the most interesting thing is the structure. It was an unfamiliar concept, so I didn't know what to start with, but I learned the concept of structure.
+Once again, as I made it step by step, I felt the charm of the structure. I wonder and look forward to the format of the next milestone 3 and 4.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
