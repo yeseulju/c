@@ -1,0 +1,20 @@
+YeseulJu
+154673198
+yju9@myseneca.ca
+NEE
+
+reflect_a2ms2
+
+1.
+ It is a strcpy function. To use this function, the header file string.h file must be included at the top to be used. The character string variable to be stored and the character string variable to be used are using in this function be in order. This function is my favorite because it is very easy to copy and use the character string variables to be stored in order. In the long code like this task, it was very convenient to use because we tried to make the code simple using the function as much as possible.
+
+2.
+int findAccountIndexByAcctNum(int match, const struct Account account[], int i, int prompt);
+
+int findTicketIndexByAcctNum(int correct, const struct Ticket account[], int i, int prompt);
+
+int findTicketIndexByTickNum(int match, const struct Ticket ticket[], int i, int prompt);
+
+Through this function, I was able to find the ticket index with the ticket number on it. And, through this, we were able to find an index containing information about a specific ticket number. I was able to find a specific index and send it by displaying the required ticket number parameters. This function has also been added to account ticketing.
+It is also a function that allows you to find a ticket index number with an account number that can be used to find a ticket to delete when deleting an account. This function has been added to account ticketing. This is because UI.h deleted the account of account issuance UI.c using this function.
+
